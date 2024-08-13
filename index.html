@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Operations with Progress Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Operations</h1>
+        <div class="number-display" id="number-display">0</div>
+        <div class="buttons">
+            <button onclick="subtractNumber()">Subtract 1</button>
+            <button onclick="addNumber()">Add 1</button>
+        </div>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <div class="undo-redo">
+            <button onclick="undo()">Undo</button>
+            <button onclick="redo()">Redo</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
